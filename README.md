@@ -13,11 +13,11 @@ Because syntax highlighting is really helpful, that's why.  Also, we want people
 How should I use it?
 --------------------
 
-* cd .config/geany/filedefs
 * git clone git://github.com/their/cypher-geany-syntax.git
-* Open Geany: Tools->Configuration Files->filetype_extensions.conf
-** Under [Extensions] add: Cypher=*.cyp;*.cypher;
-* edit a file that has the extension **.cypher** or **.cyp**
+* cd cypher-geany-syntax/ && cp filetypes.Cypher.conf .config/geany/filedefs/
+* Edit filetype_extensions.conf: (Tools->Configuration Files->filetype_extensions.conf)
+* Under [Extensions] add: Cypher=*.cyp;*.cypher;
+* Edit a file that has the extension **.cypher** or **.cyp**
 
 Who should I thank?
 -------------------
