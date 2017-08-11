@@ -23,4 +23,15 @@ Who should I thank?
 * [robinedwards](https://github.com/robinedwards) for extending the syntax.
 * [their](https://github.com/their) for extending to geany.
 
+Todo
+----
+Add the following equivalents in geany:
+* -syn region    cypherProperty      start=+'+ skip=+\\\\\|\\'+ end=+'+
+* -syn match     cypherRelationship  ":\w*_\w*"
+* -syn match     cypherSymbol        "->"
+* -syn match     cypherSymbol        "<=>"
+* -syn match     cypherSymbol        "<-"
+* -syn match     cypherPropertyName  "\w\+:"
+* -syn match     cypherVariable      "\w\+"
+
 Thanks guys!
