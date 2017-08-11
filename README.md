@@ -17,7 +17,7 @@ How should I use it?
 * cd cypher-geany-syntax/ && cp filetypes.Cypher.conf .config/geany/filedefs/
 * Edit filetype_extensions.conf: (Tools->Configuration Files->filetype_extensions.conf)
 * Under [Extensions] add: Cypher=*.cyp;*.cypher;
-* Edit a file that has the extension **.cypher** or **.cyp**
+* Edit a file that has the extension **.cyp** or **.cypher**
 
 Who should I thank?
 -------------------
